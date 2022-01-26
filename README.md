@@ -1,9 +1,13 @@
-# GOACS2 Python Modules and Packages
+# GOACS2 Module 3 Bokeh and Lists
 
-In this assignment, you will import a **Python package** called `pygamezero` to help you run some sample code.  
+In this assignment, you will import a **Python package** called `bokeh` to help you run some sample code.  
   
-You will also create a `main.py` program as described in the Canvas assignment. See the assignment page for additional instructions.
+You will also create a number of programs to practice lists, as described in the Canvas assignment. See the assignment page for additional instructions.
   
+---
+
+This sample program is from the Bokeh website. You can see information about the dataset here: https://docs.bokeh.org/en/latest/docs/gallery/sprint.html
+
 ---
 
 Instructions for importing packages are below. The most important steps are <ins>underlined</ins>.
@@ -13,16 +17,16 @@ Instructions for importing packages are below. The most important steps are <ins
 >     * At the top of the VSCode window, you'll see the Terminal menu in the menu bar. 
 Choose `New Terminal` from the menu, or use the shortcut `Ctrl` + `Shift` + \` on Windows or `command` + `shift` + \`on Mac
 > 2. Install the required package(s)
->     * <ins>In the Terminal, type `pip install pgzero`</ins>
->     * Pygame Zero is the package used in this sample program.
+>     * <ins>In the Terminal, type `pip install bokeh`</ins>
+>     * Bokeh is the package used in this sample program.
 >     * IF THIS DOESN'T WORK - please try the following:
->       * upgrade pip using the following command: `pip install --upgrade pip` and try `pip install pgzero` again.
->       * use pip3 instead of pip, for example `pip3 install pgzero`
+>       * upgrade pip using the following command: `pip install --upgrade pip` and try `pip install bokeh` again.
+>       * use pip3 instead of pip, for example `pip3 install bokeh`
 > 3. Choose your Interpreter
->     * If VS Code still doesn't recognize the import pgzrun code at the top of the program, we will have to determine which interpreter has Pygame Zero installed.
->     * <ins>At the bottom of VS Code is a version of Python. Click on this, then choose the version of Python interpreter where the package was installed.</ins> You'll know you've chosen the right one when VS Code recognizes the pgzrun module.
+>     * If VS Code still doesn't recognize the import code at the top of the program, we will have to determine which interpreter has Bokeh installed.
+>     * <ins>At the bottom of VS Code is a version of Python. Click on this, then choose the version of Python interpreter where the package was installed.</ins> You'll know you've chosen the right one when VS Code recognizes the bokeh module.
 > 4. Run the program
->     * Select the `pgzerosample.py` file in the explorer
+>     * Select the `bokehsample.py` file in the explorer
 >         * If you don't see the file list, click on the icon on the top left of the window
 >     * Click the play button on the top right of the window
 
